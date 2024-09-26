@@ -1,3 +1,9 @@
+---
+external: false
+title: "Quartus"
+description: How to Crack Quartus Software
+date: 2024-09-26
+---
 
 # First [install](https://drive.google.com/file/d/18Yk6t34D0loLvZe92zGBNbfhTebdvhx1/view?usp=sharing) the Quartus Prime Standard and/or Pro 18.1 software:
 
@@ -10,7 +16,6 @@
 # Step 3: Select License Setup in the Quartus Prime 18.1 Tools menu, select License file, and click OK.
 
 # The path name stored in the license file cannot contain spaces. Spaces can be replaced with underscores.
-
 # For most users, you don't need to crack ModelSim, you can use the free ModelSim-Altera Starter Edition, which is the entry version, you can simulate 10,000 lines of executable code
   (this 10,000 lines means not including comments, pure Code). Only a very large design requires the ModelSim-Altera Edition or the ModelSim-SE version.
   These two versions need to be cracked, and the cracker searches for it. I don't provide it.
