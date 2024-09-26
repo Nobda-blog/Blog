@@ -7,15 +7,15 @@ date: 2024-09-26
 
 - First [install](https://drive.google.com/file/d/18Yk6t34D0loLvZe92zGBNbfhTebdvhx1/view?usp=sharing) the Quartus Prime Standard and/or Pro 18.1 software:
 
-#[download all files](https://drive.google.com/drive/folders/1uDMS_Ts3kvtyWFqVMHF3S-U4zq9OGoCM)
+##### [download all files](https://drive.google.com/drive/folders/1uDMS_Ts3kvtyWFqVMHF3S-U4zq9OGoCM)
 
-# Step 1: 
+### Step 1: 
 Copy the [Quartus_18.1.exe](https://drive.google.com/file/d/1wdH9_gWmR0dsyN_S57goO0_KJZAX5l0f/view?usp=sharing) to C:\intelFPGA\18.1\quartus\bin64 and/or C:\intelFPGA_Pro\18.1\quartus\bin64 (your installation directory may not be the same ), That is to say put it in the same folder as quartus.exe.
 Double-click to run! This cracker will automatically identify whether the Quartus 18.1 is Standard Edition or Pro Edition, and then automatically crack.
-# Step 2: 
+### Step 2: 
 download [license.dat file](https://drive.google.com/file/d/1e4eJQ6UB-cefMJD2qFuIqq5jMRDNvl_G/view?usp=sharing) and Replace XXXXXXXXXXXX in license.dat with your network card number (select License Setup in the Quartus Prime 18.1 Tools menu. There will be a NIC ID. Select either the first or the second).
 
-# Step 3: 
+### Step 3: 
 Select License Setup in the Quartus Prime 18.1 Tools menu, select License file, and click OK.
 
 - The path name stored in the license file cannot contain spaces. Spaces can be replaced with underscores.
