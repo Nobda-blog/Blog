@@ -4,10 +4,9 @@ title: "Quartus"
 description: How to Crack Quartus Software
 date: 2024-09-26
 ---
+- [*download all files*](https://drive.google.com/drive/folders/1uDMS_Ts3kvtyWFqVMHF3S-U4zq9OGoCM)
 
 - First [install](https://drive.google.com/file/d/18Yk6t34D0loLvZe92zGBNbfhTebdvhx1/view?usp=sharing) the Quartus Prime Standard and/or Pro 18.1 software:
-
-##### [download all files](https://drive.google.com/drive/folders/1uDMS_Ts3kvtyWFqVMHF3S-U4zq9OGoCM)
 
 ### Step 1: 
 Copy the [Quartus_18.1.exe](https://drive.google.com/file/d/1wdH9_gWmR0dsyN_S57goO0_KJZAX5l0f/view?usp=sharing) to C:\intelFPGA\18.1\quartus\bin64 and/or C:\intelFPGA_Pro\18.1\quartus\bin64 (your installation directory may not be the same ), That is to say put it in the same folder as quartus.exe.
