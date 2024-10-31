@@ -8,7 +8,7 @@ date: 2024-10-30
 #### Overview
 In this project, we’ll attach the ESP32-CAM to a pan and tilt stand with two SG90 servo motors. With a pan and tilt camera stand, you can move the camera up, down, to the left, and to the right—this is great for surveillance. The ESP32-CAM hosts a web server that shows video streaming and buttons to control the servo motors to move the camera.
 
-![Pan tilt ESP32 Cam Project](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images//Pan_tilt_ESP32_Cam_Project-20241028221918592.webp)
+![Pan tilt ESP32 Cam Project](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241028221918592.webp)
 
 ### Parts Required
 For this project, we’ll use the following parts:
@@ -21,10 +21,10 @@ For this project, we’ll use the following parts:
 
 ### Steps
 #### 1) Pan and Tilt Stand and Motors Assembly
-![Pan tilt ESP32 Cam Project](img/Pan_tilt_ESP32_Cam_Project-20241028223729276.webp)
+![Pan tilt ESP32 Cam Project](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241028223729276.webp)
 
 #### 2) Connecting Servo Motors to ESP32 and Power Supply
-![Servo Connection](img/Pan_tilt_ESP32_Cam_Project-20241029154135646.webp)
+![Servo Connection](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241029154135646.webp)
 
 #### 3) ESP32 CAM Case Assembly
 - *STL files*:
@@ -34,7 +34,7 @@ For this project, we’ll use the following parts:
 
 #### 4) ESP32 CAM Programming
 - **FTDI <=> ESP32 CAM Wiring**  
-  ![Wiring Diagram](img/Pan_tilt_ESP32_Cam_Project-20241028224355045.webp)
+  ![Wiring Diagram](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241028224355045.webp)
 
 - **Software and Code Setup**:
   1. [Install Arduino IDE](https://www.arduino.cc/en/software/OldSoftwareReleases)
@@ -42,23 +42,23 @@ For this project, we’ll use the following parts:
   3. Download libraries & ESP32 board:
       - Open *pan_tilt_esp32_cam* sketch in Arduino IDE
       - Go to **Preferences** in the File menu  
-        ![Preferences](img/Pan_tilt_ESP32_Cam_Project-20241029233436071.webp)
+        ![Preferences](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241029233436071.webp)
       - Paste this URL in **Additional boards manager URLs**: `https://dl.espressif.com/dl/package_esp32_index.json`  
-        ![Boards Manager](img/Pan_tilt_ESP32_Cam_Project-20241029233958434.webp)
+        ![Boards Manager](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241029233958434.webp)
       - Go to **Boards Manager**, search for `esp32`, and install version `1.0.6`  
-        ![ESP32 Board](img/Pan_tilt_ESP32_Cam_Project-20241029234625552.webp)
+        ![ESP32 Board](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241029234625552.webp)
       - Go to **Library Manager**, search for `esp32Servo`, and install version `0.11.0`  
-        ![Servo Library](img/Pan_tilt_ESP32_Cam_Project-20241029234636660.webp)
+        ![Servo Library](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241029234636660.webp)
       - Setup the ESP32 CAM board  
-        ![Board Setup](img/Pan_tilt_ESP32_Cam_Project-20241030004433764.webp)
+        ![Board Setup](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241030004433764.webp)
       - Upload the code to the connected ESP32 board using the FTDI module  
-        ![Code Upload](img/Pan_tilt_ESP32_Cam_Project-20241030004721719.webp)
+        ![Code Upload](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241030004721719.webp)
 
 #### 5) Web Application
 - After uploading the code, remove the jumper wire  
-  ![Jumper Removal](img/Pan_tilt_ESP32_Cam_Project-20241030013120277.webp)
+  ![Jumper Removal](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241030013120277.webp)
 - Press the reset button  
-  ![Reset Button](img/Pan_tilt_ESP32_Cam_Project-20241030013433033.webp)
+  ![Reset Button](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241030013433033.webp)
 - Open the IP address in a browser connected to the same Wi-Fi network  
-  ![Web Application Interface 1](img/Pan_tilt_ESP32_Cam_Project-20241030020927921.webp)
-  ![Web Application Interface 2](img/Pan_tilt_ESP32_Cam_Project-20241030021425563.webp)
+  ![Web Application Interface 1](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241030020927921.webp)
+  ![Web Application Interface 2](https://raw.githubusercontent.com/ErroujiOussama/ESP32-CAM-pan-tilt-/refs/heads/main/images/Pan_tilt_ESP32_Cam_Project-20241030021425563.webp)
