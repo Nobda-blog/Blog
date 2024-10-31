@@ -28,7 +28,7 @@ For this project, we’ll use the following parts:
 
 #### 3) ESP32 CAM Case Assembly
 - *STL files*:
-    - [Top Model on Sketchfab](https://sketchfab.com/3d-models/top-e2a87d0dc10746838a21e3a1ab0b27a4)
+    <div class="sketchfab-embed-wrapper"> <iframe title="Top" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/e2a87d0dc10746838a21e3a1ab0b27a4/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/top-e2a87d0dc10746838a21e3a1ab0b27a4?utm_medium=embed&utm_campaign=share-popup&utm_content=e2a87d0dc10746838a21e3a1ab0b27a4" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Top </a> by <a href="https://sketchfab.com/ossamaerrouji?utm_medium=embed&utm_campaign=share-popup&utm_content=e2a87d0dc10746838a21e3a1ab0b27a4" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> RobotX&More </a><a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=e2a87d0dc10746838a21e3a1ab0b27a4" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"></a></p></div>
     - [Bottom Model on Sketchfab](https://sketchfab.com/3d-models/bottom-4c11fc81c39643fda570e0b3a168bfb9)
     - [Mount Model on Sketchfab](https://sketchfab.com/3d-models/mount-275df1afe2474d00bc77dd61d4536d96)
 
